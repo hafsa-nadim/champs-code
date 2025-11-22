@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./cakes.avif");
+  background-repeat: no-repeat;
+  background-size:cover;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+               'Lucida Sans', Arial, sans-serif;
+}
+
+.poster {
+  background-color: rgba(180, 114, 158, 0.7);
+  color: rgb(2, 64, 71);
+  text-align: center;
+  padding: 40px 60px;
+  border-radius: 15px;
+  max-width: 600px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+#wish {
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+}
+
+
+.poster p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.poster h2 {
+  font-size: 1.5rem;
+}
